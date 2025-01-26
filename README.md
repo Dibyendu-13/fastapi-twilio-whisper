@@ -72,7 +72,7 @@ TWILIO_AUTH_TOKEN=<your_twilio_auth_token>
 Run the FastAPI server using the following command:
 
 ```bash
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```
 
 This will start the server at `http://localhost:5050`.
